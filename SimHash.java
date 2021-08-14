@@ -1,5 +1,3 @@
-package simhash;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -82,11 +80,5 @@ public class SimHash {
             }
         }
         return distance;
-    }
-
-    public static void main(String argv[]) {
-        SimHash simHash = new SimHash();
-        String vec = simHash.getSimhash("關注我⇧獲取輕鬆快樂的求職幹貨 泰國！新加坡！印度尼西亞！ 金融！外國語！洛朗級展示！ 咖喱！肉骨茶！印尼九層塔！ 高數！量子學！");
-        //System.out.println(vec);
     }
 }
