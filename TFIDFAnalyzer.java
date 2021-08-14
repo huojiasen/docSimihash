@@ -1,5 +1,3 @@
-package simhash;
-
 import com.huaban.analysis.jieba.JiebaSegmenter;
 
 import java.io.BufferedReader;
