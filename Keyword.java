@@ -1,5 +1,3 @@
-package simhash;
-
 public class Keyword implements Comparable<Keyword> {
 
     private double tfidfvalue;
