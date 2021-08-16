@@ -35,10 +35,6 @@ public class SimHash {
 
     public String getSimhash(String content) {
         List<Keyword> words =  tfidfAnalyzer.analyze(content, 6);
-        /*for (Keyword w:words) {
-            logger.info(w.getName());
-        }*/
-
         if (words.size()==0) {
             return "00";
         }
